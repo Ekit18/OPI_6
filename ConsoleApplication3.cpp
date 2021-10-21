@@ -8,13 +8,13 @@ int main()
     float a, b, c, x, f;
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    cout << "Введіть a" << endl;
+    cout << "Введіть A" << endl;
     cin >> a;
-    cout << "Введіть b" << endl;
+    cout << "Введіть B" << endl;
     cin >> b;
-    cout << "Введіть c" << endl;
+    cout << "Введіть C" << endl;
     cin >> c;
-    cout << "Введіть x" << endl;
+    cout << "Введіть X" << endl;
     cin >> x;
     cout << "a=" << a << endl << "b=" << b << endl << "c=" << c << endl << "x=" << x << endl;
     if (x - 1 < 0 && x - 1 != 0 && b - x != 0) f = a * x * x + b;
