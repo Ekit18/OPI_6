@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 #include "windows.h"
 #include "math.h"
 using namespace std;
@@ -7,11 +7,11 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	double b, y, x, z;
-	printf("Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ x: ");
-	scanf_s("%lf", &x);
-	printf("Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ y: ");
-	scanf_s("%lf", &y);
+	cout<<"Ââåä³òü x: ";
+	cin>>x;
+	cout<<"Ââåä³òü y: ";
+	cin>>y;
 	z = pow(y, 3);
 	b = (pow (z - x, 2) / pow(y - x, 3)) + ((abs(pow(y - x, 3))) / pow(x, 1. / 5));
-	printf("b = %lf", b);
+	cout<<b;
 }
